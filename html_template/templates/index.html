@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}HTML Template using Bootstrap CDN and Custom CSS{% endblock %}
+
+{% block content %}
+<div id="content" class="bg-dark ">
+    {% comment %}
+    {% include "cover.html" %}     
+    {% endcomment %}
+    {% include 'hero.html' %}
+</div>
+{% endblock %}

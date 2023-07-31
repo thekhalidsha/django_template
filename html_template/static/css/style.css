@@ -1,0 +1,34 @@
+*, body{
+  font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif !important;
+}
+*::selection{
+  background-color: white;
+  color: black;
+}
+#content{
+  /* padding: 3px; */
+}
+.footer_class{
+  font-size: small;
+}
+.footer_class a:hover{
+  color: grey !important;
+  /* background-color: aquamarine; */
+}
+.navlink{
+  text-decoration: none;
+  color: white;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
